@@ -40,5 +40,9 @@ void work() {
 
 int main() {
     work();
+    
+    cout << "\nPress Enter to exit" << endl;
+    cin.get();
+    
     return 0;
 }
