@@ -34,7 +34,7 @@ void work() {
     auto end_time = chrono::steady_clock::now();
     auto elapsed_seconds = chrono::duration_cast<chrono::seconds>(end_time - start_time);
     
-    cout << "work() finished" << endl;
+    cout << "Work is done!." << endl;
     cout << "Total  time: " << elapsed_seconds.count() << " seconds" << endl;
 }
 
